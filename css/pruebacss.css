@@ -1,7 +1,6 @@
 .container-fluid1 {
   background-color: black;
-  text-align: center;
-  transform: translate(1px, 1px); }
+  text-align: center; }
 
 .container-fluid2 {
   padding-left: 0px;
@@ -19,33 +18,35 @@ ul {
       font-size: 16px;
       color: #444; }
 
+body {
+  background-color: black; }
+
 /*BEM*/
 .noticia {
-  background-color: grey; }
+  background-color: black; }
 
 .noticia__titulo {
-  color: red;
+  color: grey;
   font-size: 50px; }
 
 .noticia__texto {
-  padding: 5px;
-  color: black; }
+  padding: 5px; }
 
 .info {
   background-color: black; }
 
 .info__titulo {
-  color: blue;
+  color: grey;
   font-size: 50px; }
 
 .info__texto {
   padding: 5px; }
 
 .footer {
-  background-color: grey; }
+  background-color: black; }
 
 .footer__texto {
-  color: black; }
+  color: grey; }
 
 .formulario {
   width: 350px;

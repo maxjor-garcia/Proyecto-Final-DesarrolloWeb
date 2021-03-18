@@ -1,7 +1,6 @@
 .container-fluid1 {
     background-color: black;
     text-align: center;
-    transform: translate(1px, 1px);
 }
 
 .container-fluid2 {
@@ -36,20 +35,23 @@ ul {
              }
 }
 
+body { 
+    background-color: $colorNegro;
+}
+
 /*BEM*/
 
 .noticia {
-    background-color: $colorGris;
+    background-color: $colorNegro;
 }
 
 .noticia__titulo {
-    color: $colorRojo;
+    color: $colorGris;
     font-size: $tamañoTitulo;
 }
 
 .noticia__texto {
     padding: $paddingArticulo;
-    color: $colorNegro;
 }
 
 .info {
@@ -57,7 +59,7 @@ ul {
 }
 
 .info__titulo {
-    color: $colorAzul;
+    color: $colorGris;
     font-size: $tamañoTitulo;
 }
 
@@ -66,11 +68,11 @@ ul {
 }
 
 .footer {
-    background-color: $colorGris;
+    background-color: $colorNegro;
 }
 
 .footer__texto {
-    color: $colorNegro;   
+    color: $colorGris;   
 }
 
 
