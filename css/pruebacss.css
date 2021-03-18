@@ -16,7 +16,7 @@ ul {
     ul li a {
       text-decoration: none;
       font-size: 16px;
-      color: #444; }
+      color: blue; }
 
 body {
   background-color: black; }
@@ -30,7 +30,8 @@ body {
   font-size: 50px; }
 
 .noticia__texto {
-  padding: 5px; }
+  padding: 5px;
+  color: grey; }
 
 .info {
   background-color: black; }
@@ -40,7 +41,8 @@ body {
   font-size: 50px; }
 
 .info__texto {
-  padding: 5px; }
+  padding: 5px;
+  color: grey; }
 
 .footer {
   background-color: black; }
@@ -57,7 +59,8 @@ body {
 .formulario__titulo {
   text-align: center;
   padding-top: 90px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  color: grey; }
 
 input {
   width: 100px;

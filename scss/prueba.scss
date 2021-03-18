@@ -30,7 +30,7 @@ ul {
   	       a {
     		     text-decoration: none;
    	                 font-size: 16px;
-    		     color: #444;
+    		     color: blue;
    	      }
              }
 }
@@ -52,6 +52,7 @@ body {
 
 .noticia__texto {
     padding: $paddingArticulo;
+    color: $colorGris;
 }
 
 .info {
@@ -65,6 +66,7 @@ body {
 
 .info__texto {
     padding: $paddingArticulo;
+    color: $colorGris;
 }
 
 .footer {
@@ -87,6 +89,7 @@ body {
     text-align: $textAlignTituloForm;
     padding-top: $paddingTituloForm;
     padding-bottom: $paddingTituloForm2;
+    color: $colorGris;
 }
 
 input {
